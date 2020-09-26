@@ -32,6 +32,7 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 
 // custom
 import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -62,7 +63,8 @@ ClassicEditor.builtinPlugins = [
 	TextTransformation,
 
 	// custom
-	Base64UploadAdapter
+	Base64UploadAdapter,
+	Alignment
 ];
 
 // Editor configuration.
