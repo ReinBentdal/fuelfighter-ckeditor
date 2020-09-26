@@ -3,6 +3,7 @@
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor.js';
+
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js';
 import Autolink from '@ckeditor/ckeditor5-link/src/autolink.js';
 import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave.js';
@@ -79,52 +80,51 @@ Editor.builtinPlugins = [
 ];
 
 // Editor configuration.
-Editor.defaultConfig = {
-	toolbar: {
-		items: [
-			'heading',
-			'|',
-			'bold',
-			'italic',
-			'fontColor',
-			'fontSize',
-			'fontFamily',
-			'|',
-			'alignment',
-			'bulletedList',
-			'numberedList',
-			'indent',
-			'outdent',
-			'|',
-			'link',
-			'imageUpload',
-			'blockQuote',
-			'insertTable',
-			'mediaEmbed',
-			'undo',
-			'redo',
-			'exportPdf',
-			'horizontalLine'
-		]
-	},
-	language: 'en',
-	image: {
-		toolbar: [
-			'imageTextAlternative',
-			'imageStyle:full',
-			'imageStyle:side'
-		]
-	},
-	table: {
-		contentToolbar: [
-			'tableColumn',
-			'tableRow',
-			'mergeTableCells',
-			'tableCellProperties',
-			'tableProperties'
-		]
-	},
-	licenseKey: ''
-};
+// Editor.defaultConfig = {
+// 	toolbar: {
+// 		items: [
+// 			'heading',
+// 			'|',
+// 			'bold',
+// 			'italic',
+// 			'fontColor',
+// 			'fontSize',
+// 			'fontFamily',
+// 			'|',
+// 			'alignment',
+// 			'bulletedList',
+// 			'numberedList',
+// 			'indent',
+// 			'outdent',
+// 			'|',
+// 			'link',
+// 			'imageUpload',
+// 			'blockQuote',
+// 			'insertTable',
+// 			'mediaEmbed',
+// 			'undo',
+// 			'redo',
+// 			'exportPdf',
+// 			'horizontalLine'
+// 		]
+// 	},
+// 	language: 'en',
+// 	image: {
+// 		toolbar: [
+// 			'imageTextAlternative',
+// 			'imageStyle:full',
+// 			'imageStyle:side'
+// 		]
+// 	},
+// 	table: {
+// 		contentToolbar: [
+// 			'tableColumn',
+// 			'tableRow',
+// 			'mergeTableCells',
+// 			'tableCellProperties',
+// 			'tableProperties'
+// 		]
+// 	}
+// };
 
 export default Editor;
