@@ -78,4 +78,51 @@ Editor.builtinPlugins = [
 	WordCount
 ];
 
+Editor.defaultConfig = {
+	toolbar: {
+		items: [
+			'heading',
+			'|',
+			'bold',
+			'italic',
+			'fontColor',
+			'fontSize',
+			'fontFamily',
+			'|',
+			'alignment',
+			'bulletedList',
+			'numberedList',
+			'indent',
+			'outdent',
+			'|',
+			'link',
+			'imageUpload',
+			'blockQuote',
+			'insertTable',
+			'mediaEmbed',
+			'undo',
+			'redo',
+			'exportPdf',
+			'horizontalLine'
+		]
+	},
+	language: 'en',
+	image: {
+		toolbar: [
+			'imageTextAlternative',
+			'imageStyle:full',
+			'imageStyle:side'
+		]
+	},
+	table: {
+		contentToolbar: [
+			'tableColumn',
+			'tableRow',
+			'mergeTableCells',
+			'tableCellProperties',
+			'tableProperties'
+		]
+	}
+}
+
 export default Editor;
