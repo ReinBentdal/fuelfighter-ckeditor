@@ -111,7 +111,10 @@ Editor.defaultConfig = {
 		toolbar: [
 			'imageTextAlternative',
 			'imageStyle:full',
-			'imageStyle:side'
+			'imageStyle:side',
+			'imageStyle:alignLeft',
+			'imageStyle:alignCenter',
+			'imageStyled:alignRight'
 		]
 	},
 	table: {
