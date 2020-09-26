@@ -1,9 +1,7 @@
 /**
- * @license Copyright (c) 2003-2020, CKSource - Frederico Knabben. All rights reserved.
+ * @license Copyright (c) 2014-2020, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
-
-// The editor creator to use.
 import ClassicEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor.js';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js';
 import Autolink from '@ckeditor/ckeditor5-link/src/autolink.js';
@@ -82,7 +80,6 @@ Editor.builtinPlugins = [
 
 // Editor configuration.
 Editor.defaultConfig = {
-
 	toolbar: {
 		items: [
 			'heading',
@@ -127,5 +124,7 @@ Editor.defaultConfig = {
 			'tableProperties'
 		]
 	},
-	licenseKey: '',
+	licenseKey: ''
 };
+
+export default Editor;
