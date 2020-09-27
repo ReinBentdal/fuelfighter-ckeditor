@@ -35,7 +35,7 @@ import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperti
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
-import Title from '@ckeditor/ckeditor5-heading/src/title.js';
+// import Title from '@ckeditor/ckeditor5-heading/src/title.js';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
 
 class Editor extends ClassicEditor {}
@@ -74,7 +74,6 @@ Editor.builtinPlugins = [
 	TableProperties,
 	TableToolbar,
 	TextTransformation,
-	Title,
 	WordCount
 ];
 
@@ -112,9 +111,9 @@ Editor.defaultConfig = {
 			'imageTextAlternative',
 			'imageStyle:full',
 			'imageStyle:side',
-			'imageStyle:alignLeft',
-			'imageStyle:alignCenter',
-			'imageStyled:alignRight'
+			'alignLeft',
+			'alignCenter',
+			'alignRight'
 		]
 	},
 	table: {
