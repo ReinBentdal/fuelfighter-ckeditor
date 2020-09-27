@@ -74,6 +74,7 @@ Editor.builtinPlugins = [
 	TableProperties,
 	TableToolbar,
 	TextTransformation,
+	// Title,
 	WordCount
 ];
 
@@ -111,9 +112,12 @@ Editor.defaultConfig = {
 			'imageTextAlternative',
 			'imageStyle:full',
 			'imageStyle:side',
-			'alignLeft',
-			'alignCenter',
-			'alignRight'
+			'imageStyle:alignLeft',
+			'imageStyle:alignCenter',
+			'imageStyled:alignRight'
+		],
+		styles: [
+			'alignLeft', 'alignCenter', 'alignRight'
 		]
 	},
 	table: {
