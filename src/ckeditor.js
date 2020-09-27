@@ -99,7 +99,7 @@ Editor.defaultConfig = {
 			'imageUpload',
 			'blockQuote',
 			'insertTable',
-			'mediaEmbed',
+			// 'mediaEmbed',
 			'undo',
 			'redo',
 			'exportPdf',
@@ -111,10 +111,7 @@ Editor.defaultConfig = {
 		toolbar: [
 			'imageTextAlternative',
 			'imageStyle:full',
-			'imageStyle:side',
-			'imageStyle:alignLeft',
-			'imageStyle:alignCenter',
-			'imageStyled:alignRight'
+			'imageStyle:side'
 		],
 		styles: [
 			'alignLeft', 'alignCenter', 'alignRight'
